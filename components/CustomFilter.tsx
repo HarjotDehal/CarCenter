@@ -23,7 +23,7 @@ export default function CustomFilter({ title, options }: CustomFilterProps) {
         // this uses our util file and creates the new path
 
       // we get our path above and then push it below. 
-    router.push(newPathName);
+    router.push(newPathName+"#discover");
   };
 
   

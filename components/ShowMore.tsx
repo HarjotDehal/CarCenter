@@ -25,7 +25,7 @@ const ShowMore = ({pageNumber,isNext} : ShowMoreProps) => {
 
         // console.log('hi');
         
-        router.push(newPathName);
+        router.push(newPathName+"#discover");
 
     }
 

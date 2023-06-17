@@ -91,8 +91,8 @@ const SearchBar = () => {
 
 
     // this gives the new url. We push it
-    router.push(newPathname);
-console.log('hi');
+    router.push(newPathname+"#discover");
+// console.log('hi');
    
     window.scrollTo(1000,1000);
 
