@@ -54,6 +54,10 @@ const SearchBar = () => {
 
 
     updateSearchParams(model.toLowerCase(), manufacturer.toLowerCase());
+
+
+     
+
   };
 
   const updateSearchParams = (model: string, manufacturer: string) => {
@@ -88,6 +92,12 @@ const SearchBar = () => {
 
     // this gives the new url. We push it
     router.push(newPathname);
+console.log('hi');
+   
+    window.scrollTo(1000,1000);
+
+  
+
   };
 
   return (
@@ -136,6 +146,7 @@ const SearchBar = () => {
 
       {/* this shows them in different places depending on the size of our window.  All we have to do is change the url */}
       <SearchButton otherClasses='max-sm:hidden' />
+      
     </form>
   );
 };
