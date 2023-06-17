@@ -3,7 +3,10 @@ import { carTypes,  drivetypes, fuels, yearsOfProduction } from '@/components/co
 import { fetchCars } from '@/utils'
 import Image from 'next/image'
 
-export default async function Home({searchParams}) {
+import { HomeProps } from "@/types";
+
+
+export default async function Home({ searchParams }: HomeProps) {
  
   // we can make our home page async, this means it will wait for our cars to load before it loads. 
  
